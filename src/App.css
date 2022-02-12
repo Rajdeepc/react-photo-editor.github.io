@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+header {
+  background: #17161E;
+  padding: 20px 30px;
+}
+.grid {
+  display: flex;
+  height: calc(100vh - 116px);
+  color: #98979B;
+}
+.left-grid {
+  padding-top: 20px;
+  background: #262730;
+  width: 5%;
+}
+.image-container{
+  width: 80%;
+ 
+}
+.imagePreview {
+  width: 100%;
+  height: 100%;
+  /* background-image: url(https://images.unsplash.com/photo-1519834785169-98be25ec3f84?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dHJ5fGVufDB8fDB8fA%3D%3D&w=1000&q=80); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+}
+.controls {
+  width: 200px;
+  background: #262730;
+  padding: 20px;
+}
+
+.controls div {
+  margin-bottom: 18px;
+  text-align: left;
+  font-size: 14px;
+}
+header.flex-header {
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+}
+.download {
+  background: blue;
+    padding: 10px 15px;
+    border-radius: 32px;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.upload-button img {
+  width: 100%;
+  height: 30px;
+}
+a.download.disabled {
+  background: grey;
+  cursor: not-allowed;
+}
+footer{
+  background: #17161E;
+    padding: 20px 30px;
+    color: #fff;
+}
