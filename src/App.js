@@ -117,7 +117,7 @@ function App() {
             className="upload-button"
           >
             <img
-              src={process.env.PUBLIC_URL + "./assets/upload.png"}
+              src={process.env.PUBLIC_URL + "/assets/upload.png"}
               alt="upload"
             />{" "}
           </button>
